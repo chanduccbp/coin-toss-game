@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 70%;
+  width: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.t-pic {
+  height: 30%;
+}
+
+.r-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.res {
+  color: #475569;
+  font-weight: bold;
+}
+
+h1 {
+  color: #a35200;
+}
+
+p {
+  color: #334155;
+  font-weight: bold;
+}
+
+.butt {
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 5px;
+  padding: 5px;
+  border-style: none;
+}
